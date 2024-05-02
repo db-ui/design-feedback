@@ -8,19 +8,26 @@ body:
         Thanks for taking the time to fill out this bug report! Feedback by the community has a very high value for us, to improve our work and to have every other user benefit from it as well. 🙂
 
   - type: checkboxes
-    id: component
+    id: ds-library
     attributes:
-      label: Which generators are impacted?
+      label: Which libraries are impacted?
       description: Select all the ones that apply, to the best of your knowledge.
       options:
-        - label: All
-        - label: HTML
-        - label: React
-        - label: Angular
-        - label: Vue
-        - label: Web components
-        - label: Power Apps
+        - label: Figma: Core Foundations
+        - label: Figma: Core Components
+        - label: Figma: Core Patterns
+        - label: Figma: Core Icons
+        - label: Sketch: Core (Foundations/Components/Patterns)
+        - label: Sketch: Core Icons
 
+  - type: input
+    id: ds-version
+    attributes:
+      label: Which version is impacted?
+      description: Please let us know which version number is affected.
+    validations:
+      required: true
+      
   - type: textarea
     id: reproduction_fiddle
     attributes:
@@ -42,19 +49,6 @@ body:
     attributes:
       description: If applicable, add screenshots to help explain your problem.
       label: Screenshots
-
-  - type: dropdown
-    id: browser
-    validations:
-      required: false
-    attributes:
-      label: Browser version
-      description: Does this bug affect specific browser?
-      options:
-        - Chrome
-        - Safari
-        - Edge
-        - other
 
   - type: textarea
     id: additional_information
