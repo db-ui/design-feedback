@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: ds-library
     attributes:
-      label: Which libraries are impacted?
+      label: Which design system content is impacted?
       description: Select all the ones that apply, to the best of your knowledge.
       options:
         - label: Figma Core Foundations
@@ -19,14 +19,15 @@ body:
         - label: Figma Core Icons
         - label: Sketch Core (Foundations/Components/Patterns)
         - label: Sketch Core Icons
+        - label: Documentation
 
   - type: input
     id: ds-version
     attributes:
       label: Which version is impacted?
-      description: Please let us know which version number is affected.
+      description: Please let us know which version number or which link is affected.
     validations:
-      required: true
+      required: false
       
   - type: textarea
     id: reproduction_fiddle
