@@ -24,7 +24,7 @@ body:
   - type: input
     id: ds-version
     attributes:
-      label: Which version is impacted?
+      label: Which version or link is impacted?
       description: Please let us know which version number or which link is affected.
     validations:
       required: false
