@@ -13,12 +13,12 @@ body:
       label: Which libraries are impacted?
       description: Select all the ones that apply, to the best of your knowledge.
       options:
-        - label: Figma: Core Foundations
-        - label: Figma: Core Components
-        - label: Figma: Core Patterns
-        - label: Figma: Core Icons
-        - label: Sketch: Core (Foundations/Components/Patterns)
-        - label: Sketch: Core Icons
+        - label: Figma Core Foundations
+        - label: Figma Core Components
+        - label: Figma Core Patterns
+        - label: Figma Core Icons
+        - label: Sketch Core (Foundations/Components/Patterns)
+        - label: Sketch Core Icons
 
   - type: input
     id: ds-version
