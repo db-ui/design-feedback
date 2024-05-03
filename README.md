@@ -1,4 +1,6 @@
 # DB UX Design System - Design
+![db-ux-components](https://github.com/db-ui/design/assets/167995907/30dd288e-ee62-4322-958e-553123509931)
+
 
 ## Project Feedback and Issue Reporting
 Welcome to our Design repository! This repository is dedicated to gathering feedback, feature requests and bug reports for Versions 2 (V2) and Version 3 (V3) of our Design System.
