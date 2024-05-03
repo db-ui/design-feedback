@@ -30,8 +30,9 @@ body:
   - type: textarea
     id: reproduction_fiddle
     attributes:
-      description: A clear and concise description of what the bug is. How can we reproduce the error?
+      description: A clear and concise description of what the bug is.
       label: Reproduction case
+      placeholder: How can we reproduce the error?
     validations:
       required: true
 
