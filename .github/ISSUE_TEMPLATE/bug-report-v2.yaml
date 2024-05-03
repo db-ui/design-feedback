@@ -23,13 +23,14 @@ body:
     attributes:
       label: Which version is impacted?
       description: Please let us know which version number is affected.
+      placeholder: ex. 2.3.15
     validations:
       required: false
       
   - type: textarea
     id: reproduction_fiddle
     attributes:
-      description: A clear and concise description of what the bug is.
+      description: A clear and concise description of what the bug is. How can we reproduce the error?
       label: Reproduction case
     validations:
       required: true
@@ -39,6 +40,7 @@ body:
     attributes:
       description: A clear and concise description of what you expected to happen.
       label: Expected Behaviour
+      placeholder: What did you expect to see?
     validations:
       required: true
 
@@ -47,6 +49,7 @@ body:
     attributes:
       description: If applicable, add screenshots to help explain your problem.
       label: Screenshots
+      placeholder: Screenshots often help us to better understand the problem.
 
   - type: textarea
     id: additional_information
