@@ -1,1 +1,35 @@
+name: ✨ Feature request or enhancement
+description: Request a feature to be added to DB UX Design System.
+labels: 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! Use this template if you want to request a new feature, or a change to an existing feature. If you are reporting a bug or problem, please use the bug template instead.
+  
+  - type: textarea
+    id: problem
+    attributes:
+      description: Give a clear and precise description of the problem that the new function is intended to solve. If possible, be sure to include screenshots or videos to illustrate the problem.
+      label: The problem
+      placeholder: 
+    validations:
+      required: true
 
+  - type: textarea
+    id: solution
+    attributes:
+      description: Describe clearly and concisely what the solution to the problem could look like. If possible, include screenshots or videos to illustrate the solution. Design specifications are highly encouraged.
+      label: The solution
+      placeholder: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      description: Provide sample content, references, or audits of solutions solving the same problem in other applications/websites.
+      label: Examples
+      placeholder: 
+    validations:
+      required: false
