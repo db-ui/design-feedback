@@ -1,1 +1,35 @@
+name: 📕 Documentation
+description: Create an issue that affects the DB UX Design System documentation
+labels: [📕 documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! Feedback by the community has a very high value for us, to improve our work and to have every other user benefit from it as well. 🙂
+  
+  - type: input
+    id: link
+    attributes:
+      description: Please insert here the link to the documentation page for which you have suggestions for changes.
+      label: Description
+      placeholder: Insert link here
+    validations:
+      required: false
 
+  - type: textarea
+    id: description
+    attributes:
+      description: Please describe the documentation issue in as much detail as possible.
+      label: Description
+      placeholder: Add issue description here
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      description: Please tell us your suggested changes or add examples. 
+      label: Suggestion/Example
+      placeholder: Add suggestion description here
+    validations:
+      required: true
