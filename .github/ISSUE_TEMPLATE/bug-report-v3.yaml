@@ -25,6 +25,7 @@ body:
     attributes:
       label: Which version is impacted?
       description: Please let us know which version number is affected.
+      placeholder: ex. 3.0.0-Beta-1 or 3.0.13
     validations:
       required: false
       
@@ -39,8 +40,9 @@ body:
   - type: textarea
     id: expected_behaviour
     attributes:
-      description: A clear and concise description of what you expected to happen.
-      label: Expected Behaviour
+      description: A clear and concise description of what the bug is. How can we reproduce the error?
+      label: Expected 
+      placeholder: What did you expect to see?
     validations:
       required: true
 
@@ -49,6 +51,7 @@ body:
     attributes:
       description: If applicable, add screenshots to help explain your problem.
       label: Screenshots
+      placeholder: Screenshots often help us to better understand the problem.
 
   - type: textarea
     id: additional_information
