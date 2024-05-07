@@ -6,8 +6,8 @@
 Welcome to our Design repository! This repository is dedicated to gathering feedback, feature requests and bug reports for Versions 2 (V2) and Version 3 (V3) of our Design System.
 
 ## How to Contribute
-### Reporting Bugs
-If you encounter any issues or bugs while using our Design System, please open a new issue using the bug report templates for V2 and V3. Be sure to provide detailed steps to reproduce the problem.
+### Reporting Design Bugs
+If you encounter any design issues or bugs while using our Design System, please open a new issue using the bug report templates for V2 and V3. Be sure to provide detailed steps to reproduce the problem.
 
 ### Providing Documentation Feedback
 We value your feedback on our documentation! If you find any errors, inconsistencies, or have suggestions for improvement, please let us know by opening an documentation issue.
