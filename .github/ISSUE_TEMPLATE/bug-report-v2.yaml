@@ -17,6 +17,8 @@ body:
         - label: Sketch Android & iOS
         - label: Sketch Illustrative Icons
         - label: Sketch Funktionale Icons
+    validations:
+      required: true
 
   - type: input
     id: ds-version
