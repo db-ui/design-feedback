@@ -9,10 +9,10 @@ body:
 
   - type: checkboxes
     id: ds-library
-    validations:
-      required: true
+      
     attributes:
       label: Which design system content is impacted?
+      required: true
       description: Select all the ones that apply, to the best of your knowledge.
       options:
         - label: Figma Core Foundations
