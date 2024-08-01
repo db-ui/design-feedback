@@ -9,6 +9,8 @@ body:
 
   - type: checkboxes
     id: ds-library
+    validations:
+      required: true
     attributes:
       label: Which design system content is impacted?
       description: Select all the ones that apply, to the best of your knowledge.
