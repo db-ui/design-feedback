@@ -10,7 +10,7 @@ body:
   - type: checkboxes
     id: ds-library
     attributes:
-      label: Which design system content is impacted?
+      label: Which design system content is impacted? * (PLEASE SELECT THE LIBRARY)
       description: Select all the ones that apply, to the best of your knowledge.
       options:
         - label: Sketch Web Anwendungen
