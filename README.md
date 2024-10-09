@@ -1,6 +1,6 @@
 # DB UX Design System - Design
 
-<picture><source srcset="https://db-ui.github.io/images/db-ux-design-system-v3-header.avif" type="image/avif"><source srcset="https://db-ui.github.io/images/db-ux-design-system-v3-header.webp" type="image/webp"><img src="https://db-ui.github.io/images/db-ux-design-system-v3-header.jpg" alt="" width="948" height="493"></picture>
+<picture><source srcset="//db-ui.github.io/images/db-ux-design-system-v3-header.avif" type="image/avif"><source srcset="//db-ui.github.io/images/db-ux-design-system-v3-header.webp" type="image/webp"><img src="//db-ui.github.io/images/db-ux-design-system-v3-header.jpg" alt="" width="948" height="493"></picture>
 
 
 ## Project Feedback and Issue Reporting
