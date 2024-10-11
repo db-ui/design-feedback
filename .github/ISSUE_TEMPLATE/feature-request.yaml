@@ -5,6 +5,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this issue! Use this template if you want to request a new feature, or a change to an existing feature. If you are reporting a bug or problem, please use the bug template instead.
+        
+        📣Please create a separate issue for each feature.
   
   - type: textarea
     id: problem
