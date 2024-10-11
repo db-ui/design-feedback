@@ -1,6 +1,6 @@
 name: 🐛 Design Bug Report - Version 2
 description: Create a report to help us improve
-labels: [🐛 bug, version2]
+labels: [🐛 bug, version2, open]
 body:
   - type: markdown
     attributes:
